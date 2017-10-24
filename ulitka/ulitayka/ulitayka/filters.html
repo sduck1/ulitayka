@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Фильтр | Улитайка</title>
+    <link rel="shortcut icon" href="./assets/img/ulitayka-logo.ico" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/js/libs/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="./assets/js/libs/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/libs/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="./assets/js/libs/air-datepicker/dist/css/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css?<?php echo time();?>" media="all"/>
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/js/libs/owl.carousel.min.js"></script>
+    <script src="./assets/js/libs/air-datepicker/dist/js/datepicker.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</head>
+<!-- Сontent -->
+<body>
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="top_info fz16">
+                <div class="">
+                    <a href="#">
+                        <img src="./assets/img/ulitayka-logo.png" alt="Улитайка" class="logo">
+                    </a>
+                </div>
+                <div class="out">
+                    <img src="./assets/img/header-pic.png" class="image-responsive" alt="Улитайка">
+                    <p id="top-banner">ТИШЕ ЕДЕШЬ - ДАЛЬШЕ БУДЕШЬ</p>
+                </div>
+                <div class=" call_style">
+                    <a href="contacts.php" class="callback_us">
+                        <img src="./assets/img/top-tel.png" class="image-responsive" alt="Заказать звонок"><span class="top_call"> Заказать звонок</span>
+                    </a>
+
+
+                    <a href="tel:88009002010"> <p class="top_number">8 (800) 900-20-10</p></a>
+                </div>
+            </div>
+
+
+            <nav>
+                <ul class="topmenu">
+                    <li><a href="#">Электронный полис <span class="glyphicon glyphicon-chevron-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">Как это работает</a>
+                            </li>
+                            <li><a href="#">Что входит в мою страховку</a>
+                            </li>
+                            <li><a href="#">С какими страховыми компаниями Вы работаете</a>
+                            </li>
+                            <li><a href="#">Что такое электронный полис</a>
+                            </li>
+                            <li><a href="#">Какие данные нужны для покупки полиса</a>
+                            </li>
+                            <li><a href="#">Как получить полис</a>
+                            </li>
+                            <li><a href="#">Распечатывать ли полис</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Страховой случай <span class="glyphicon glyphicon-chevron-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">Что делать при наступлении страхового случая</a>
+                            </li>
+                            <li><a href="#">Как получить выплату</a>
+                            </li>
+                            <li><a href="#">Как избежать отказа в выплате</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Путешественникам <span class="glyphicon glyphicon-chevron-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">Нужна ли страховка</a>
+                            </li>
+                            <li><a href="#">Страховка для визы</a>
+                            </li>
+                            <li><a href="#">Зона шенген</a>
+                            </li>
+                            <li><a href="#">Информация о страховых компаниях</a>
+                            </li>
+                            <li><a href="#">Правила страхования</a>
+                            </li>
+                            <li><a href="#" class="submenu-link">Виды тур-страховок <span class="glyphicon glyphicon-chevron-right"></span></a>
+                                <ul class="submenu">
+                                    <li><a href="#">Индивидуальная</a>
+                                    </li>
+                                    <li><a href="#">Групповая</a>
+                                    </li>
+                                    <li><a href="#">Медицинская</a>
+                                    </li>
+                                    <li><a href="#">Компенсационная</a>
+                                    </li>
+                                    <li><a href="#">От невыезда</a>
+                                    </li>
+                                    <li><a href="#">Страховка с франшизой</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Способы оплаты <span class="glyphicon glyphicon-chevron-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">Как оплатить полис</a>
+                            </li>
+                            <li><a href="#">Берете ли Вы комиссию за оплату</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Легенда</a>
+                    </li>
+                    <li><a href="contacts.php">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="#" class="lk"><img src="./assets/img/lk.png" alt="Личный кабинет"> Личный кабинет</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr class="orange1">
+        </div>
+    </div>
+</header>
+
+<div class="row">
+    <div class="mo_margin_row">
+        <div class="col-lg-4 col-lg-offset-1 col-md-12">
+            <div class="card">
+                <img src="./assets/img/logo-alpha.png" alt="Альфа страхование" class="img_logo">
+                <p class="amount"><b>100</b> &#8381;</p>
+                <input type="checkbox" name="card_checkbox1" id="card_checkbox1" class="checkbox_form">
+                <label for="card_checkbox1"></label>
+                <a href="#"><img src="./assets/img/button_blue.png" alt="" class="blue_button">
+                </a>
+                <a href="#"><img src="./assets/img/button_orange.png" alt="" class="orange_button">
+                </a>
+                <a href="#">
+                    <p class="blue_button_text">Купить</p>
+                </a>
+                <a href="#">
+                    <p class="orange_button_text">Сравнить</p>
+                </a>
+                <div class="call_style">
+                    <a href="#" class="callback_us">
+                        <span class="polis_example">Образец полиса</span>
+                        <hr class="orange_dashed2">
+                    </a>
+                </div>
+                <div class="container_new">
+                    <div class="tabs">
+                        <input id="tab1" type="radio" name="tabs">
+                        <label for="tab1" title="Ассистанс">Ассистанс</label>
+
+                        <input id="tab2" type="radio" name="tabs">
+                        <label for="tab2" title="Франшиза">Франшиза</label>
+
+                        <input id="tab3" type="radio" name="tabs">
+                        <label for="tab3" title="Правила страхования">Правила страхования</label>
+                        <hr class="orange2">
+                        <section id="content-tab1">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                        <section id="content-tab2">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                        <section id="content-tab3">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img/logo-ergo.png" alt="Ergo" class="img_logo">
+                <p class="amount"><b>200</b> &#8381;</p>
+                <input type="checkbox" name="card_checkbox2" id="card_checkbox2" class="checkbox_form">
+                <label for="card_checkbox2"></label>
+                <a href="#"><img src="./assets/img/button_blue.png" alt="" class="blue_button">
+                </a>
+                <a href="#"><img src="./assets/img/button_orange.png" alt="" class="orange_button">
+                </a>
+                <a href="#">
+                    <p class="blue_button_text">Купить</p>
+                </a>
+                <a href="#">
+                    <p class="orange_button_text">Сравнить</p>
+                </a>
+                <div class="call_style">
+                    <a href="#" class="callback_us">
+                        <span class="polis_example">Образец полиса</span>
+
+                        <hr class="orange_dashed2">
+                    </a>
+                </div>
+                <div class="container_new">
+                    <div class="tabs">
+                        <input id="tab4" type="radio" name="tabs">
+                        <label for="tab4" title="Ассистанс">Ассистанс</label>
+
+                        <input id="tab5" type="radio" name="tabs">
+                        <label for="tab5" title="Франшиза">Франшиза</label>
+
+                        <input id="tab6" type="radio" name="tabs">
+                        <label for="tab6" title="Правила страхования">Правила страхования</label>
+                        <hr class="orange2">
+                        <section id="content-tab4">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                        <section id="content-tab5">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                        <section id="content-tab6">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img/logo-advant.png" alt="Адвант страхование" class="img_logo">
+                <p class="amount"><b>350</b> &#8381;</p>
+                <input type="checkbox" name="card_checkbox3" id="card_checkbox3" class="checkbox_form">
+                <label for="card_checkbox3"></label>
+                <a href="#"><img src="./assets/img/button_blue.png" alt="" class="blue_button">
+                </a>
+                <a href="#"><img src="./assets/img/button_orange.png" alt="" class="orange_button">
+                </a>
+                <a href="#">
+                    <p class="blue_button_text">Купить</p>
+                </a>
+                <a href="#">
+                    <p class="orange_button_text">Сравнить</p>
+                </a>
+                <div class="call_style">
+                    <a href="#" class="callback_us">
+                        <span class="polis_example">Образец полиса</span>
+
+                        <hr class="orange_dashed2">
+                    </a>
+                </div>
+                <div class="container_new">
+                    <div class="tabs">
+                        <input id="tab7" type="radio" name="tabs">
+                        <label for="tab7" title="Ассистанс">Ассистанс</label>
+
+                        <input id="tab8" type="radio" name="tabs">
+                        <label for="tab8" title="Франшиза">Франшиза</label>
+
+                        <input id="tab9" type="radio" name="tabs">
+                        <label for="tab9" title="Правила страхования">Правила страхования</label>
+                        <hr class="orange2">
+                        <section id="content-tab7">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                        <section id="content-tab8">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                        <section id="content-tab9">
+                            <p style="text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p id="disparity_orange_text">Не соответствует Вашему запросу</p>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-renessans.png" alt="Ренессанс страхование" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-ingosstrah.png" alt="Ингосстрах жизнь" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-vtb.png" alt="ВТБ страхование" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-reso.png" alt="Ресо гарантия" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-renessans.png" alt="Ренессанс страхование" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-ingosstrah.png" alt="Ингосстрах жизнь" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-vtb.png" alt="ВТБ страхование" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+            <div class="disparity_grey">
+                <div class="card disparity_card">
+                    <p class="disparity_text">Страховка не соответствует Вашему запросу</p>
+                    <img src="./assets/img/logo-reso.png" alt="Ресо гарантия" class="img_logo img_logo_disparity">
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/img/logo-alpha.png" alt="Альфа страхование" class="img_logo_compare">
+                <img src="./assets/img/logo-ergo.png" alt="Ergo" class="img_logo_compare">
+                <img src="./assets/img/logo-advant.png" alt="Адвант страхование" class="img_logo_compare">
+                <img src="./assets/img/logo-renessans.png" alt="Ренессанс страхование" class="img_logo_compare">
+                <a href="#"><img src="./assets/img/button_orange.png" alt="" class="orange_button2">
+                </a>
+                <a href="#">
+                    <p class="orange_button_text2">Сравнить</p>
+                </a>
+                <hr class="orange3">
+            </div>
+
+        </div>
+        <div class="col-lg-4 col-lg-offset-2 col-md-12">
+            <div class="card card_right">
+                <div class="container_filters">
+
+                    <p class="filter_h3">Страны</p>
+
+                    <select class="blue_input_text textbox_100_percent" id="country_select">
+                        <option value="default">Страна поездки</option>
+                        <option disabled>────────────</option>
+                        <option value="odin">Один</option>
+                        <option value="dva">Два</option>
+                        <option value="tri">Три</option>
+
+                    </select><label for="country_select"></label>
+                    <img src="./assets/img/earth.png" alt="" class="textbox_100_percent_pic_select">
+                    <br>
+                    <input type="checkbox" name="i_am_travelling" id="i_am_travelling" class="check_and_radio"><label for="i_am_travelling" class="filter_checkbox">Я уже путешествую</label>
+                    <a href="#"><label class="add_country">Добавить страну</label><span class="blue add_country glyphicon glyphicon-plus" id="icon_plus"></span></a>
+                    <br>
+                    <input type="text" placeholder="01.01.18" class="blue_input_text textbox_49_percent">
+                    <input type="text" placeholder="01.01.19" class="blue_input_text textbox_49_percent">
+                    <img src="./assets/img/table.png" alt="" class="textbox_49_percent_pic_left">
+                    <img src="./assets/img/table.png" alt="" class="textbox_49_percent_pic_right">
+                    <br>
+                    <input type="checkbox" name="policy_for_year" id="policy_for_year" class="check_and_radio"><label for="policy_for_year" class="filter_checkbox">Годовой полис</label>
+                    <br>
+                    <input type="text" placeholder="Количество путешественников" class="blue_input_text textbox_70_percent">
+                    <a href="#"><img src="./assets/img/button_blue.png" alt="" class="blue_button2">
+                    <img src="./assets/img/people.png" alt="" class="textbox_70_percent_pic_1">
+                    </a>
+                    <a href="#">
+                        <p class="blue_button_text2">Найти</p>
+                    </a>
+                    <p class="filter_h3" style="margin-top: -30px;">Выбор курса</p>
+                    <input type="radio" name="radio_currency" id="radio_euro" class="check_and_radio"><label for="radio_euro">Евро</label>
+                    <input type="radio" name="radio_currency" id="radio_dollar" class="check_and_radio"><label for="radio_dollar">Доллары</label>
+                    <input type="radio" name="radio_currency" id="radio_rouble" class="check_and_radio"><label for="radio_rouble">Рубли</label>
+                    <p class="filter_h3">Медицинское страхование</p>
+                    <input type="text" placeholder="Страхование на сумму" class="blue_input_text textbox_70_percent">
+                    <img src="./assets/img/wallet.png" alt="" class="textbox_70_percent_pic_2">
+                    <br>
+                    <a href="" id="toggle_insurance"><p class="filter_h3 blue inlined">Входит в страховку </p><span class="blue glyphicon glyphicon-chevron-down"></span></a>
+                    <div id="toggle_insurance_list">
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Вызов врача по медицинским показаниям</p><br>
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Амбулаторное лечение</p><br>
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Пребывание и лечение в больнице</p><br>
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Транспортировка к врачу или в больницу</p><br>
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Медицинская транспортировка из-за границы</p><br>
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Возмещение расходов за лекарства по рецепту</p><br>
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Возмещение расходов за телефонные переговоры с сервисным центром</p><br>
+                        <img src="assets/img/checked_green.png"><p class="inlined padded"> Репатриация в случае смерти</p><br>
+                    </div>
+                    <br>
+                    <a href="" id="toggle_additional"><p class="filter_h3 blue inlined">Дополнительно </p><span class="blue glyphicon glyphicon-chevron-down"></span></a>
+                    <div id="toggle_additional_list">
+                        <input type="checkbox" name="additional_options" id="additional_1" class="check_and_radio"><label for="additional_1">Экстренная стоматология</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_2" class="check_and_radio"><label for="additional_2">Оплата проезда до места жительства после лечения в больнице                           Застрахованного</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_3" class="check_and_radio"><label for="additional_3">Оплата проезда до места жительства после лечения в больнице                              сопровождающего лица Застрахованного</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_4" class="check_and_radio"><label for="additional_4">Оплата проживания Застрахованного до отъезда после лечения в                          больнице</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_5" class="check_and_radio"><label for="additional_5">Оплата проживания третьего лица в случае чрезвычайной ситуации с                      Застрахованным</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_6" class="check_and_radio"><label for="additional_6">Оплата проезда домой несовершеннолетних детей                                         Застрахованного</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_7" class="check_and_radio"><label for="additional_7">Оплата проезда домой в случае внзапной болезни/смерти                                 родственника</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_8" class="check_and_radio"><label for="additional_8">Временное возвращение Застрахованного домой</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_9" class="check_and_radio"><label for="additional_9">Помощь в результате терактов</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_10" class="check_and_radio"><label for="additional_10">Помощь в результате стихийных действий (наводнения, цунами,                         торнадо и др.)</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_11" class="check_and_radio"><label for="additional_11">Купирование обострения хронических заболеваний</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_12" class="check_and_radio"><label for="additional_12">Помощь при солнечных ожогах</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_13" class="check_and_radio"><label for="additional_13">Первая помощь при онкозаболеваниях</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_14" class="check_and_radio"><label for="additional_14">Купирование аллергических реакций</label>
+                        <br>
+                        <input type="checkbox" name="additional_options" id="additional_15" class="check_and_radio"><label for="additional_15">Помощь при наличии алкогольного опьянения</label>
+                    </div>
+                    <p class="filter_h3">Занятия спортом и активный отдых</p>
+                        <input type="text" placeholder="Распространенные виды спорта" class="blue_input_text textbox_100_percent">
+                        <img src="./assets/img/flag.png" alt="" class="textbox_100_percent_pic">
+                        <input type="text" placeholder="Другие виды спорта" class="blue_input_text textbox_100_percent">
+                        <img src="./assets/img/clock.png" alt="" class="textbox_100_percent_pic">
+                    <br>
+                        <input type="checkbox" name="pro_sport" id="pro_sport_1" class="check_and_radio"><label for="pro_sport_1">Передвижение на мотоцикле/мопеде</label>
+                    <br>
+                        <input type="checkbox" name="pro_sport" id="pro_sport_2" class="check_and_radio"><label for="pro_sport_2">Поисково-спасательные мероприятия</label>
+                    <br>
+                        <input type="checkbox" name="pro_sport" id="pro_sport_3" class="check_and_radio"><label for="pro_sport_3">Эвакуация вертолетом</label>
+                    <p class="filter_h3">Дополнительные опции</p>
+                        <input type="checkbox" name="additional_options2" id="additional2_1" class="check_and_radio"><label for="additional2_1">Страхование от несчастных случаев</label>
+                    <br>
+                    <div class="margined">
+                        <p>На все время путешествия</p>
+                        <input type="radio" name="travel_time" id="radio_travel_time_1000" class="check_and_radio"><label for="radio_travel_time_1000">1&nbsp;000</label>
+                        <input type="radio" name="travel_time" id="radio_travel_time_3000" class="check_and_radio"><label for="radio_travel_time_3000">3&nbsp;000</label>
+                        <input type="radio" name="travel_time" id="radio_travel_time_5000" class="check_and_radio"><label for="radio_travel_time_5000">5&nbsp;000</label>
+                        <input type="radio" name="travel_time" id="radio_travel_time_10000" class="check_and_radio"><label for="radio_travel_time_10000">10&nbsp;000</label>
+                        <br>
+                        <input type="checkbox" name="travel_time" id="travel_time_text" class="check_and_radio"><label for="travel_time_text">На время авиаперелета</label>
+                    </div>
+                    <br>
+                    <input type="checkbox" name="additional_options2" id="additional2_2" class="check_and_radio"><label for="additional2_2">Страховка багажа</label>
+                    <br>
+                    <div class="margined">
+                        <p>На время перелета</p>
+                        <input type="radio" name="flight_time" id="radio_flight_time_500" class="check_and_radio"><label for="radio_flight_time_500">500</label>
+                        <input type="radio" name="flight_time" id="radio_flight_time_1000" class="check_and_radio"><label for="radio_flight_time_1000">1&nbsp;000</label>
+                        <input type="radio" name="flight_time" id="radio_flight_time_1500" class="check_and_radio"><label for="radio_flight_time_1500">1&nbsp;500</label>
+                        <input type="radio" name="flight_time" id="radio_flight_time_2000" class="check_and_radio"><label for="radio_flight_time_2000">2&nbsp;000</label>
+                        <input type="radio" name="flight_time" id="radio_flight_time_another" class="check_and_radio"><label for="radio_flight_time_another">Другое</label>
+                        <br>
+                        <input type="checkbox" name="flight_time" id="flight_time_text" class="check_and_radio"><label for="flight_time_text">Страхование задержки багажа</label>
+                        <br>
+                    </div>
+                    <input type="checkbox" name="additional_options2" id="additional2_3" class="check_and_radio"><label for="additional2_3">Страхование авиаперелета</label>
+                    <br>
+                    <div class="margined">
+                        <input type="checkbox" name="flights" id="flights_regular" class="check_and_radio"><label for="flights_regular">Страхование задержки регулярного рейса</label>
+                        <br>
+                        <input type="checkbox" name="flights" id="flights_charter" class="check_and_radio"><label for="flights_charter">Страхование задержки чартерного рейса</label>
+                        <br>
+                    </div>
+                    <input type="checkbox" name="additional_options2" id="additional2_4" class="check_and_radio"><label for="additional2_4">Страхование потери документов</label>
+                    <br>
+                    <input type="checkbox" name="additional_options2" id="additional2_5" class="check_and_radio"><label for="additional2_5">Юридическая помощь</label>
+                    <br>
+                    <input type="checkbox" name="additional_options2" id="additional2_6" class="check_and_radio"><label for="additional2_6">Страхование отмены поездки</label>
+                    <br>
+                    <div class="margined">
+                        <p>На время перелета</p>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_500" class="check_and_radio"><label for="radio_flight_time_2_500">500</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_1000" class="check_and_radio"><label for="radio_flight_time_2_1000">1&nbsp;000</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_1500" class="check_and_radio"><label for="radio_flight_time_2_1500">1&nbsp;500</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_2000" class="check_and_radio"><label for="radio_flight_time_2_2000">2&nbsp;000</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_2500" class="check_and_radio"><label for="radio_flight_time_2_2500">2&nbsp;500</label>
+                    <br>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_3000" class="check_and_radio"><label for="radio_flight_time_2_3000">3&nbsp;000</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_3500" class="check_and_radio"><label for="radio_flight_time_2_3500">3&nbsp;500</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_4000" class="check_and_radio"><label for="radio_flight_time_2_4000">4&nbsp;000</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_4500" class="check_and_radio"><label for="radio_flight_time_2_4500">4&nbsp;500</label>
+                        <input type="radio" name="flight_time_2" id="radio_flight_time_2_5000" class="check_and_radio"><label for="radio_flight_time_2_5000">5&nbsp;000</label>
+                    <br>
+                    <input type="checkbox" name="flight_time_2" id="flight_time_2_text" class="check_and_radio"><label for="flight_time_2_text">Страхование риска отказа в визе</label>
+                    <br>
+                    </div>
+                    <input type="checkbox" name="additional_options2" id="additional2_7" class="check_and_radio"><label for="additional2_7">Страхование граданской ответственности</label>
+                    <br>
+                    <div class="margined">
+                        <input type="radio" name="civil_responsibility" id="radio_civil_responsibility_10000" class="check_and_radio"><label for="radio_civil_responsibility_10000">10&nbsp;000</label>
+                        <input type="radio" name="civil_responsibility" id="radio_civil_responsibility_30000" class="check_and_radio"><label for="radio_civil_responsibility_30000">30&nbsp;000</label>
+                        <input type="radio" name="civil_responsibility" id="radio_civil_responsibility_50000" class="check_and_radio"><label for="radio_civil_responsibility_50000">50&nbsp;000</label>
+                        <input type="radio" name="civil_responsibility" id="radio_civil_responsibility_another" class="check_and_radio"><label for="radio_civil_responsibility_another">Другое</label>
+                    <br>
+                    </div>
+                    <input type="checkbox" name="additional_options2" id="additional2_8" class="check_and_radio"><label for="additional2_8">Страхование на случай осложнения беременности</label>
+                    <br>
+                    <div class="margined">
+                        <input type="radio" name="pregnancy" id="radio_pregnancy_12" class="check_and_radio"><label for="radio_pregnancy_12">до 12 недель</label>
+                        <input type="radio" name="pregnancy" id="radio_pregnancy_24" class="check_and_radio"><label for="radio_pregnancy_24">до 24 недель</label>
+                        <input type="radio" name="pregnancy" id="radio_pregnancy_31" class="check_and_radio"><label for="radio_pregnancy_31">до 31 недели</label>
+                    <br>
+                    </div>
+                    <input type="checkbox" name="additional_options2" id="additional2_9" class="check_and_radio"><label for="additional2_9">Поездки на личном автомобиле</label>
+                    <br>
+                    <input type="checkbox" name="additional_options2" id="additional2_10" class="check_and_radio"><label for="additional2_10">Работа с повышенным риском</label>
+                    <br>
+                    <input type="checkbox" name="additional_options2" id="additional2_11" class="check_and_radio"><label for="additional2_11">Выбор по сервисной компании (ассистансу)</label>
+                    <br>
+                    <div class="margined">
+                        <input type="radio" name="radio_assist" id="radio_assist_alpha" class="check_and_radio"><label for="radio_assist_alpha">Альфа</label>
+                        <input type="radio" name="radio_assist" id="radio_assist_ergo" class="check_and_radio"><label for="radio_assist_ergo">Эрго</label>
+                    <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container" style="padding: 30px 10px">
+        <div class="row footer-flex">
+            <div class="col-lg-3 col-md-3 col-ex footer-link">
+                <ul>
+                    <li style="color: #fff; list-style-type: none;">
+                        МЕНЮ
+                    </li>
+                    <br>
+                    <li>
+                        <a href="#">Электронный полис</a>
+                    </li>
+                    <li>
+                        <a href="#">Страховой случай</a>
+                    </li>
+                    <li>
+                        <a href="#">Путешественникам</a>
+                    </li>
+                    <li>
+                        <a href="#">Способы оплаты</a>
+                    </li>
+                    <li>
+                        <a href="#">Легенда</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 footer-link footer-text">
+                <ul>
+                    <li style="color: #fff; list-style-type: none;">
+                        КОНТАКТЫ
+                    </li>
+                    <br>
+                    <li>
+                        <a href="tel:88009002010">8 (800) 900-20-10</a>
+                    </li>
+                    <li>
+                        <a href="#">example@yandex.ru</a>
+                    </li>
+                    <li>
+                        <p>Санкт-Петербург</p>
+                    </li>
+                    <li>
+                        <p>Комендантский пр. 4а</p>
+                    </li>
+                    <li>
+                        <p>офис 409</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <form id="form_validation_footer">
+                    <p style="color: #fff; list-style-type: none;">
+                        СВЯЗАТЬСЯ С НАМИ
+                    </p>
+                    <ul class="form-style-1 footer-form">
+                        <li>
+                            <input type="text" name="contact_name" id="contact_name" placeholder="Имя" class="field-long footer_name">
+                        </li>
+                        <li>
+                            <input type="text" name="contact_tel" id="contact_tel" placeholder="Телефон" class="field-long footer_tel">
+                        </li>
+                        <button id="contact_button" type="submit" class="but_type but_sal">Заказать звонок</button>
+                    </ul>
+                </form>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <p style="font-size: 14px; color: #f0f1f3">Разработка и продвижение</p>
+                <a href="https://seosky.su" target="_blank">
+                    <img src="./assets/img/seosky.png" alt="Разработка и продвижение сайта - SEOSKY">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</body>
+
+</html>
